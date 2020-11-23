@@ -2,3 +2,36 @@
   margin: 0px;
   box-sizing: border-box;
 }
+
+main {
+  height: 538px;
+  background: url(https://nickmwangemi.github.io/apple-clone/assets/images/background-img.jpg);
+  background-position: 0% 100%;
+  text-align: center;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+.items {
+  display: flex;
+  max-width: 100vw;
+  min-width: 1000px;
+}
+
+.products {
+  width: 100%;
+}
+
+.item {
+  margin: 0.1em;
+}
+
+.large-img {
+  margin-top: 128px;
+}
+
+.story {
+  font-size: 25px;
+  padding-top: 20px;
+  font-weight: 100;
+}
