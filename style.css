@@ -35,3 +35,27 @@ main {
   padding-top: 20px;
   font-weight: 100;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.foot-text {
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 136, 204);
+}
