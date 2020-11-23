@@ -1,0 +1,1 @@
+This is a clone of the old apple website: https://web.archive.org/web/20140301004610/http://www.apple.com/
