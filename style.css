@@ -5,8 +5,7 @@
 
 main {
   height: 538px;
-  background: url(https://nickmwangemi.github.io/apple-clone/assets/images/background-img.jpg);
-  background-position: 0% 100%;
+  background: url(./mountain.png);
   text-align: center;
   color: white;
   font-family: Helvetica, sans-serif;
@@ -27,13 +26,14 @@ main {
 }
 
 .large-img {
-  margin-top: 128px;
+  margin-top: 135px;
 }
 
 .story {
   font-size: 25px;
   padding-top: 20px;
   font-weight: 100;
+  min-width: 1000px;
 }
 
 footer {
@@ -58,4 +58,45 @@ footer {
 a {
   text-decoration: none;
   color: rgb(0, 136, 204);
+}
+
+nav {
+  background-image: linear-gradient(rgb(79, 78, 78) 50%, rgb(97, 96, 96) 50%);
+  width: 70vw;
+  position: absolute;
+  border-radius: 5px;
+  left: 15%;
+  top: 15%;
+  height: 40px;
+  min-width: 1000px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-elements {
+  display: inline-block;
+  width: 10%;
+  padding-top: 0.5%;
+}
+
+.img-element {
+  width: 5%;
+  padding-right: 7%;
+}
+
+input {
+  background: linear-gradient(rgb(79, 78, 78) 50%, rgb(97, 96, 96) 50%);
+  border: 1px solid black;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  padding-left: 10px;
+  margin-left: 20%;
+  color: white;
+  width: 150%;
 }
